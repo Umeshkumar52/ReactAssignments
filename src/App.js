@@ -4,15 +4,15 @@ import PwSkillsblog from "./pages/pwSkillsBlog/PwSkillsBlog";
 import ReadBlog from "./pages/pwSkillsBlog/ReadBlog";
 import Todo from '../src/pages/todoApp/Todo'
 import MoviSearch from '../src/pages/moviSearchApp/MoviSearch'
+import ReactWalkThroughP_2 from "./instaForm/ReactWalkThroughP_2";
+import Counter from "./instaForm/Counter";
 function App() {
   return (
     <BrowserRouter>
        <Routes>
 
-         <Route path='/' element={<PwSkillsblog/>}/>
-         <Route path='/readBlog' element={<ReadBlog/>}/>
-         <Route path='/todo' element={<Todo/>}/>
-         <Route path='/movi' element={<MoviSearch/>}/>
+         <Route path='/' element={<ReactWalkThroughP_2/>}/>
+         <Route path='/counterApp' element={<Counter/>}/>
       </Routes>
    </BrowserRouter>
   );
